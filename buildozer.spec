@@ -4,6 +4,7 @@
 # See the end of the file for more details and warnings about common mistakes.
 
 [app]
+android.accept_sdk_license = True
 
 # (str) Title of your application
 title = My Application
@@ -124,10 +125,10 @@ fullscreen = 0
 #android.ndk_api = 21
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
-android.ndk_path = /data/data/com.termux/files/home/.buildozer/android/platform/android-ndk
+# android.ndk_path = /data/data/com.termux/files/home/.buildozer/android/platform/android-ndk
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
-android.sdk_path = /data/data/com.termux/files/home/.buildozer/android/platform/android-sdk
+# android.sdk_path = /data/data/com.termux/files/home/.buildozer/android/platform/android-sdk
 
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
